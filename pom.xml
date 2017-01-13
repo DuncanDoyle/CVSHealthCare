@@ -31,13 +31,11 @@
     </dependency>
   </dependencies>
   <repositories>
-    <!--
     <repository>
-      <id>guvnor-m2-repo</id>
-      <name>Guvnor M2 Repo</name>
-      <url>http://localhost:8080/business-central/maven2/</url>
+      <id>openshift_maven</id>
+      <name>OpenShift Maven repo</name>
+      <url>http://nexus-nexus.poc.cvs.openshift.online/repository/maven-releases/</url>
     </repository>
-    -->
   </repositories>
  <build>
     <plugins>
